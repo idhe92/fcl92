@@ -1,0 +1,106 @@
+body {
+      color: white;
+       }
+
+.carousel-indicators > li {
+      border : 1px solid white;
+      background-color : transparent;
+      border-radius: 10px;
+      height: 10px;
+      width: 10px;
+      bottom : -20px;
+    }
+
+    #main {
+      background-image: url("logo/blue.jpg");
+      padding : 3% 3% 3% 3%;
+      background-size : cover;
+    }
+    
+    #title{
+      font-weight : 100 !important;
+      font-style : italic;
+      font-size : 20px;
+    }
+    
+    #textTitle{
+      font-weight : 100 !important;
+      font-size : 20px;
+    }
+    
+    nav {
+      background-color: #2FA0E1;
+    }
+    
+    h1{
+      padding : 1%;
+    }
+     
+    #trait img{
+      width : 83%;
+      height : 1px;
+    }
+    
+    p{
+      text-align : justify;
+    }
+    
+    #portraits img {
+      width: 103px;
+      height: 133px;
+    }
+    
+    #logos{
+      margin : 2%;
+      height : 75px;
+    }
+    
+    #logos img {
+      width: 130px;
+      height: 75px;
+    }
+    
+    
+    
+    
+    
+    header {
+      margin-top: 75px;
+    }
+    
+    
+    
+    .navbar-brand{
+        display : none;
+    }
+    
+    #searchLine{
+      width : 50%;
+      margin-left:25%;
+    }
+    
+.long{
+      background-image : url("logo/verticalLineSmall.png");
+      height : 21px;
+      display : block;
+      width : 100%;
+    }
+    
+    footer {
+      text-align : center;
+      background-color: #2FA0E1;
+      padding : 2% 0 1% 0;
+      font-size : 0.80em;
+      font-weight : bold;
+    }
+    
+    @media all and (max-width: 991px){
+        .navbar-brand{
+            display : block;
+        }
+
+        #lineSearch{
+            display : none;
+        }
+    }
+    
